@@ -1,0 +1,19 @@
+Author: Basith Salman
+email: basiths@gmail.com
+
+This is C++ version of the "Abstract Factory" pattern in PHP 
+to create Objects of different Bike types, that I 
+had checkedin sometime back.
+
+This is a complete sample project that can be compiled 
+and run by copying the tasks.json settings into your
+Visual Code project accordingly.
+
+
+On building the project, a executable named "TestBikeFactory" is 
+generated that can be run by just invoking it in the main
+directory by ./TestBikeFactory or by giving the complete path to
+the executable.
+
+Please mail any comments to basiths@gmail.com
+

@@ -1,0 +1,50 @@
+Files in this dirctory:
+----------------------
+README (This file)
+AbstractBicycleFactory.php 
+BicycleFactory.php
+AbstractBicycle.php	   
+BicycleFactory.php
+MountainBicycle.php
+RoadBicycle.php
+errorhandler.php	 
+
+AND
+
+TestBiCycleFactory.php
+----------------------
+A test program to test the instantiation
+of different types of Bicycle objects(MountainBicycle and 
+RoadBicycle as a sample) implemented above, it runs and stops
+the two Bicycle types, MountainBicycle and RoadBicycle created
+and echo's the specifications of each and exits.
+
+HOW TO RUN:
+----------
+To Run the Test Program run below command in this directory:
+
+php ./TestBiCycleFactory.php
+
+Any questions please email: basiths@gmail.com
+
+SAMPLE RUN OUTPUT:
+-----------------
+
+$ php ./TestBiCycleFactory.php 
+MountBicycle specs: 
+==================
+Wheel Size: 30 
+Handle type: flat 
+Brake Rotor: 10' Disc 
+
+Mountain Bicycle running, speed: 20 MPH
+Mountain Bicycle stopped, speed: 0 MPH
+
+RoadBicycle specs: 
+==================
+Wheel Size: 30 
+Handle type: Drop Bars 
+No. of Seats: 2 
+
+Road Bicycle running, speed: 20 MPH
+Road Bicycle stopped, speed: 0 MPH
